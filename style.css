@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --background-default: #F5F4F0;
+    --border-primary: #D9D9D9;
+
+    --text-primary: #1B1B1B;
+    --text-secondary: #333333;
+    --text-tertiary: #696969;
+    --text-headline: #E1624F;
+
+    --accent-blue: #0C51A7;
+    --accent-orange: #E95E10;
+    --accent-pink: #E5245E;
+    --accent-purple: #591B98;
+}
+
+body {
+    font-family: "Open Sans", serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: var(--text-primary);
+    height: 100vh;
+}
+
+#page {
+    width: 1120px;
+    margin: 88px auto;
+    /* border: red 1px solid; */
+}
+
+.description-image{
+    margin: 40px 0;
+}
+
+.description-image img {
+    border-radius: 28px;
+}
+
+.subtitle {
+    font-style: italic;
+    text-align: center;
+    padding-top: 24px;
+}
+
+.headline {
+    color: var(--text-headline);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+h1 {
+    font-size: 36px;
+    font-weight: 600;
+    color: var(--text-primary);
+    padding-top: 8px;
+}
+
+h2 {
+   font-size: 36px;
+    font-weight: 600;
+    color: var(--text-primary); 
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: 600;
+    margin-top: 8px;
+}
+
+#content-list {
+    border-top: 1px solid var(--border-primary);
+}
+
+#title-list {
+    margin: 64px 0;
+}
+
+.description {
+    margin-top: 8px;
+    color: var(--text-secondary);
+}
+
+.card-travel img {
+    border-radius: 28px;
+    height: 350px;
+}
+
+.content-card-subtitle {
+    padding-top: 4px;
+}
+
+.content-card-subtitle a {
+    text-decoration: none;
+}
+
+.a0 {
+    color: var(--accent-blue);
+}
+
+.a1 {
+    color: var(--accent-purple);
+}
+
+.a2 {
+    color: var(--accent-pink);
+}
+
+.a3 {
+    color: var(--accent-orange);
+}
+
+.subtile {
+    margin-top: 40px;
+    border-top: 1px solid var(--border-primary);
+    padding-top: 40px;
+    text-align: center;
+
+}
+
+footer {
+    margin-top: 64px;
+    text-align: center;
+    color: var(--text-tertiary);
+}
+
+footer img {
+    vertical-align: middle;
+}
